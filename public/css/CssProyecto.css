@@ -1,0 +1,450 @@
+/* Fuente de las letras de la pagina */
+
+html {
+  font-family: 'Lato', sans-serif;
+}
+
+/*--------- Color de los parrafos y de las letras de navegacion---------------------------*/
+
+p {
+  color: white;
+}
+/*----------------------BARRA DE NAVEGACION ------------------*/
+body {
+  background:#FFFFFA;
+}
+ 
+header {
+  width:100%;
+}
+ /*----- tamaño de la barra de navegacion y color -----*/
+/*header nav {
+  width:100%;
+  max-width:1000px;
+  margin:20px auto;
+  background:#292929;
+  border-radius: 10%;
+}*/
+ /*---------------------------------*/
+/*.menu_bar {
+  display:none;
+}
+ 
+header nav ul {
+  overflow:hidden;
+  list-style:none;
+}
+ 
+header nav ul li {
+  float: left;
+}
+ 
+header nav ul li a {
+  color:#fff;
+  padding:20px;
+  display:block;
+  text-decoration:none;
+}
+ 
+header nav ul li span {
+  margin-right:10px;
+}*/
+/*----- ESTO SIRVE PARA QUE CUANDO PASE EL MOUSE POR ENCIMA CAMBIE DE COLOR EL CUADRO -----*/ 
+/*header nav ul li a:hover {
+  background:#4C4C4C;
+}*/
+ /*----------------------------------------*/
+/*section {
+  padding:20px;
+}
+ 
+@media screen and (max-width:800px ) {
+  header nav {
+    width:80%;
+    height:100%;
+    left:-100%;
+    margin:0;
+    position: fixed;
+    z-index: 1;
+  }
+ 
+  header nav ul li {
+    display:block;
+    float:none;
+    border-bottom:1px solid rgba(255,255,255, .3);
+  }
+ 
+  .menu_bar {
+    display:block;
+    width:100%;
+    background:#ccc;
+  }
+ 
+  .menu_bar .bt-menu {
+    display:block;
+    padding:20px;
+    background:#292929;
+    color:#fff;
+    text-decoration:none;
+    font-weight: bold;
+    font-size:25px;
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    box-sizing:border-box;
+  }
+ 
+  .menu_bar span {
+    float:right;
+    font-size:40px;
+  }
+}
+*/
+/*    OTRA BARRA DE NAVEGACION    */
+.content{
+  width: 90%;
+  height: 130px;
+  /* background-color: #292929;*/
+  /*background-color: rgba(255,255,255,0.1);*/
+  padding-top: 80px;
+  margin-bottom: 1%;
+  margin-left: 5%;
+}
+.navbar{
+  text-align: center;
+  /*background-color: rgba(255,255,255,0.1);*/
+  background-color: #292929;
+  height: 50px;
+  padding-top: 10px;
+}
+.navbar span a{
+  color: white;
+  padding: 0 15px;
+  /*top: 0;*/
+  margin-right: 10%;
+}
+.navbar .logo{
+  position: relative;
+  padding: 0 60px;
+}
+.navbar .logo img{
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  bottom: 0;
+  left: 10px;
+}
+
+/*    FIN DE LA BARRA DE NAVEGACION */
+/*------------ Contenedor global ---------*/
+
+.contenedor_global {
+  width: 100%;
+  max-width: 1520px;
+  margin: auto;
+  background: url(http://wallpapersafari.com/w/wXI38U/);
+  /*box-sizing:border-box;*/
+}
+/*---------Caja general----------*/
+
+.caja_general {
+  margin: auto;
+  margin-top: 10px;
+  width: 100%;
+  height: 2780px;
+  padding: 10px;
+  background-color: #000021;
+  /*-------OJO--------Cambiar color al finalizar todo*/
+
+}
+/*--------- CAJA CONTENIDO DEL JUEGO --------------*/
+
+.caja_contenido {
+  width: 60%;
+  height: 13%;
+  margin: auto;
+  background-color:#292929;
+  float: left;
+  border-radius: 20px;
+  padding: 3%;
+  /*border-top: solid 5px #ffbd00;
+  border-bottom: solid 5px #ffbd00;
+  border-left: solid 5px #ffbd00;
+  border-right: solid 5px #ffbd00;*/
+}
+/*-------------- SINOPSIS CAJA   --------------*/
+
+.caja_contenido1 {
+  width: 50%;
+  height: 7.5%;
+  padding: 20px;
+  background-color:#292929;
+  float: left;
+  margin: auto;
+  margin-left: 4%;
+  margin-top: 5%;
+  border-radius: 20px;
+
+  /*border-top: solid 5px #ffdb00;
+  border-bottom: solid 5px #ffdb00;
+  border-left: solid 5px #ffdb00;
+  border-right: solid 5px #ffdb00;*/
+}
+/*-------------- CARATULA DE EL JUEGO CAJA ----------------*/
+
+.caja_contenido2 {
+  width: 38%;
+  height: 14%;
+  background-color: #292929; /*-------OJO-------Cambiar color al finalizar todo*/
+  margin: auto;
+  margin-top: 6%;
+  margin-left: 0.3%;
+  float: right;
+  border-radius: 50px;
+  
+  border-top: solid 5px #ffbd00;
+  border-bottom: solid 5px #ffbd00;
+  border-left: solid 5px #ffbd00;
+  border-right: solid 5px #ffbd00;
+}
+/* ---------------------------- CAJA DE VISION DE DE COJUNTO ---------------- */
+
+.caja_contenido3 {
+  width: 90%;
+  height: 14%;
+  padding: 20px;
+  margin: auto;
+  margin-left: 5%;
+  margin-top: 2%;
+  background-color: #292929;
+  float: left;
+  border-radius: 20px;
+
+  /*border-top: solid 5px #ffbd00;
+  border-bottom: solid 5px #ffbd00;
+  border-left: solid 5px #ffbd00;
+  border-right: solid 5px #ffbd00;*/
+}
+/*--------------CAJA PARA LOS MAPAS ------------------*/
+
+.caja_contenido4 {
+  width: 100%;
+  height: 20%;
+  padding: 10px;
+  background-color: #292929;
+  float: left;
+  margin: auto;
+  margin-top: 2%;
+  border-radius: 50px;
+  margin-bottom: 5%;
+
+  /*border-top: solid 5px #ffbd00;
+  border-bottom: solid 5px #ffbd00;
+  border-left: solid 5px #ffbd00;
+  border-right: solid 5px #ffbd00;*/
+}
+/*-----------------------------------------------------------*/
+/*------------------MODO DE JUEGOS -------------*/
+.caja_contenido5 {
+  width: 90%;
+  height: auto;
+  padding: 20px;
+  margin-left: 5%;
+  background-color: #292929;
+  float: left;
+  border-radius: 20px;
+
+  /*border-top: solid 5px #ffbd00;
+  border-bottom: solid 5px #ffbd00;
+  border-left: solid 5px #ffbd00;
+  border-right: solid 5px #ffbd00;*/
+}
+/*----------------------------------*/
+.caja_personajes {
+  width: 100%;
+  height: 51%;
+  padding: 10px;
+  /*margin:auto;*/
+  /*background-color:#292929;*/
+  float: left;
+  margin-top: 1%;
+  text-align: center;
+}
+.caja_mapas{
+  width: 40%;
+  height: auto;
+  padding: 15px;
+  background-color:#ffdb00;
+  float: right;
+  border-radius: 1%;
+  /*margin-top: 2%;*/
+  margin-right: 8%;
+  font-size: 14px;
+  
+}
+/*---------- ULTIMA CAJA FOOTER (no esta lista) -------*/
+.caja_footer {
+  width: 100%;
+  height:auto;
+  padding: 15px;
+  background-color:#292929 ; /*-------OJO-------Cambiar color al finalizar todo*/
+  margin-top: 2%;
+  float: left;
+}
+/*---------------------------------------------------*/
+/*------------- BOTON DE IR ARRIBA ---------------------------*/
+#ir_arriba{
+    width:50px;
+    height:50px;
+    /*opacity:0.3;*/
+    position:fixed;
+    bottom:30px;
+    right:10px;
+    border-radius: 20px;
+    display:none;
+    /*text-indent:-9999px;*/
+    background-color:#ffdb00;
+    text-align: center;
+    cursor: pointer;
+}
+
+
+/*------------------------------------------ EFECTOS DE LAS REDES SOCIALES ------------------------*/
+
+.redes {
+  position: fixed;
+  top: 200px;
+  z-index: 100;
+  left: 0;
+}
+#facebook a {
+  background: #3b5998;
+  padding: 10px 25px;
+  color: white;
+  text-decoration: none;
+  width: 55px;
+  transition: all .4s ease;
+}
+#facebook a:hover {
+  background: black;
+  padding: 10px 50px;
+}
+#youtube a {
+  background: #bb0000;
+  padding: 10px 20px;
+  color: white;
+  text-decoration: none;
+  width: 55px;
+  transition: all .4s ease;
+}
+#youtube a:hover {
+  background: black;
+  padding: 10px 50px;
+}
+#twitter a {
+  background: #55acee;
+  padding: 10px 20px;
+  color: white;
+  text-decoration: none;
+  width: 55px;
+  transition: all .4s ease;
+}
+#twitter a:hover {
+  background: black;
+  padding: 10px 50px;
+}
+#correo a {
+  background: #e95950;
+  padding: 10px 20px;
+  color: white;
+  text-decoration: none;
+  width: 55px;
+  transition: all .4s ease;
+}
+#correo a:hover {
+  background: black;
+  padding: 10px 50px;
+}
+/*-------------------------------------------------------------------------*/
+
+/* ---------- EFECTOS NO RELEVANTES -----------------*/
+
+.Vermas {
+  width: 30%;
+  height: 6%;
+  border: solid;
+  text-align: center;
+  margin-top: 5%;
+}
+.iman-1 {
+  width: 40%;
+  height: 20%;
+  float: right;
+  margin-right: 3%;
+  margin-top: 3%;
+  border-radius: 10px;
+}
+.titulos {
+  color: white;
+}
+body {
+  background: url(http://s1.1zoom.me/b5050/176/Tom_Clancy_Rainbow_Six_509442_1920x1080.jpg);
+  /*background-repeat: no-repeat;*/
+}
+/*#contacto {
+  text-align: center;
+  background-color:#ffdb00;
+  margin-left: 39%;
+  border-color:#ffdb00; 
+}*/
+
+.ryi {
+  /*background-color:red;
+  border-color: red;*/
+}
+/*-------------------- Llamados de @Media -----------------*/
+
+@media screen and (max-width: 500px){
+  .caja_contenido{
+    width: 100%;
+  }
+  .caja_contenido2{
+    width: 100%;
+  }
+  .iman-1{
+    width:70%;
+    margin-right: 15%;
+  }
+  .caja_contenido1{
+    width: 100%;
+  }
+  .caja_contenido4{
+    width: 100%;
+  }
+  .caja_general{
+    height: 5350px;
+  }
+  .caja_contenido5{
+    width: 100%;
+  }
+}
+@media screen and (max-width: 500px){
+  .Imagen_Logo{
+    display: none;
+  }
+  .Imagen_Logo1{
+    width: 200px;
+    height: auto;
+    margin-left: 8px;
+  }
+}
+@media screen and (max-width: 500px){
+  .caja_mapas {
+    width: 80%;
+    margin-bottom: 3%;
+ }
+}
+@media screen and (max-width: 500px){
+  .caja_contenido4{
+    text-align: center;
+  }
+}

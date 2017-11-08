@@ -1,0 +1,93 @@
+/* ---------- LETRA DEL INICIO DE SESION --------- */
+html {
+	font-size: 16px;
+    font-family: 'Lato', sans-serif;
+}
+
+body {
+	background:url(imagenes/ImagenBody.jpg);
+}
+
+/*----------- ESTO ES DONDE ESTARA UBICADO EL INICIO DE SESION ----------*/
+.container {
+	max-width: 450px;
+	height: auto;
+	background-color: #EFEFEF;
+	margin: 5% auto;
+	padding-bottom: 1rem;
+	border-radius: 50px;
+	
+}
+
+/*-----Esto es para el titulo de el formulario -----*/
+.form__top {
+	width: 100%;
+	text-align: center;
+	padding: 2rem 0 1rem;
+	border-top: solid .5rem #292929;/*Para la barrita solida de arriba*/
+	margin-bottom: 1rem;
+	border-radius: 50px;
+}
+
+.form__top h2 {
+	font-weight: bold;
+	color: #C8C8C8;
+	font-size: 18px;
+}
+
+h2 span {
+	color: #ffdb00;
+}
+/*----------------------------------------------------------------------------- FIN DE TITULO FORMULARIO*/
+
+/*----- ESTO ES DONDE IRA UBICADO LAS CASILLA DEL FORMULARIO -----*/
+.form__reg {
+	padding: 0 2rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+/*-------------------------------------------------FIN*/
+
+/*----- PARA QUE LOS BOTONES TENGAN UNA SEPARACION -----*/
+.btn__form {
+	display: flex;
+	justify-content: space-around;
+	margin-top: 1rem;
+}
+
+/*----- ESTO ES PARA EL ESPACIO DE LOS BOTONES ENTRE ELLOS Y LA TRANSICION DE ELLOS -----*/
+.input, .btn__submit, .btn__reset{
+	background-color: #EFEFEF;
+	padding: .5rem;
+	margin: .5rem 0;
+	border: none;
+	border-bottom: solid #C8C8C8 .2rem;
+	/*transition: all .5s;*/
+}
+/*------------------------------------------------------------FIN---*/
+
+/*-- ESTO ES PARA EL COLOR DE LOS BOTONES CUANDO SE PASEN EL MOUSE POR ENCIMA ETC --*/
+.input:focus {
+	border-bottom: solid #ffdb00 .2rem;
+}
+
+.btn__submit, .btn__reset {
+	width: 40%;
+	border-bottom: none;
+	background-color: #31B1E5;
+	color: white;
+}
+
+.btn__reset {
+	background-color: #EDA135;
+}
+
+.btn__submit:hover {
+	background-color: #4C9ED9;
+}
+
+.btn__reset:hover{
+	background-color: #FA9535;
+} 
+/*---------------------------------------------------------FIN*/
